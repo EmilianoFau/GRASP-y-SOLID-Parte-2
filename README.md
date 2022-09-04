@@ -11,3 +11,4 @@ Para imprimir una receta se necesita información de la receta pero también se 
 ➡️ **Crear una clase ConsolePrinter para imprimir las recetas en la consola en lugar que las recetas se impriman a sí mismas.**
 
 ➡️ **¿Qué patrones o principios usan para determinar cómo implementar este cambio? Escriban la respuesta en comentarios en el código.**
+Utilizando el principio SRP me di cuenta de que la clase Recipe no debía imprimir la receta, sino que esto debía hacerse en una clase aparte.  
